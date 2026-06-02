@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte e Sustentável</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            /* Imagem de fundo: Plantação de milho */
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                        url('https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Container Principal */
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            padding: 60px 20px 20px 20px;
+        }
+
+        .badge-2026 {
+            background-color: #ffd600;
+            color: #1b5e20;
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 3.2rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+            max-width: 700px;
+            margin: 10px auto 0 auto;
+            color: #e0e0e0;
+        }
+
+        /* Seção de Conteúdo com Efeito de Vidro (Glassmorphism) */
+        .main-content {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .card-sobre {
+            background: rgba(27, 94, 32, 0.85); /* Verde escuro semi-transparente */
+            backdrop-filter: blur(5px);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .card-sobre h2 {
+            color: #ffd600;
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        /* Grid de Destaques */
+        .grid-sustentavel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.95);
+            color: #222;
+            padding: 25px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 280px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border-top: 6px solid #ffd600;
+        }
+
+        .box h3 {
+            color: #1b5e20;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #ccc;
+            width: 100%;
+        }
+
+        /* Ajustes para Celular */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.2rem; }
+            header p { font-size: 1.1rem; }
+            .card-sobre h2 { font-size: 1.7rem; }
+            .card-sobre { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        
+        <header>
+            <div class="badge-2026">Agrinho 2026</div>
+            <h1>Agro Forte e Sustentável</h1>
+            <p>O ouro verde do campo alimentando o mundo com responsabilidade socioambiental.</p>
+        </header>
+
+        <main class="main-content">
+            
+            <div class="card-sobre">
+                <h2>A Força do Milho e da Sustentabilidade</h2>
+                <p>Assim como uma plantação de milho cresce forte quando bem cuidada, o nosso futuro depende do equilíbrio entre a produção e a preservação. O Agrinho 2026 destaca o papel da tecnologia, do manejo correto do solo e do respeito à natureza para manter o campo gigante e sustentável.</p>
+            </div>
+
+            <div class="grid-sustentavel">
+                
+                <div class="box">
+                    <h3>Manejo Inteligente</h3>
+                    <p>A rotação de culturas (como milho e soja) protege os nutrientes da terra, evita pragas de forma natural e mantém o solo produtivo ano após ano.</p>
+                </div>
+
+                <div class="box">
+                    <h3>Tecnologia no Campo</h3>
+                    <p>Sensores modernos medem a umidade exata da lavoura, garantindo que a água seja usada na quantidade perfeita, sem desperdícios.</p>
+                </div>
+
+                <div class="box">
+                    <h3>Crescer com Consciência</h3>
+                    <p>Ser forte significa produzir mais zonas de alimento usando a mesma área de terra, protegendo as matas ciliares e a nossa biodiversidade.</p>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Concurso Agrinho: Agro Forte e Sustentável. Todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
